@@ -1,0 +1,75 @@
+<!--html5的标准文档结构-->
+<!DOCTYPE html>
+<!--指定文档的语言中文-简体-->
+<html lang="zh-CN">
+<head>
+    <!-- 指定当前网页的编码格式-->
+    <meta charset="UTF-8">
+    <!-- 指定当前的IE浏览器用它最新的渲染引擎
+    来渲染我们的网页-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <!-- 只会在移动端识别 视口 当前的宽度等于设备的宽度 默认的缩放比1.0，不允许用户自行缩放 -->
+    <meta name="viewport" content="width=device,inital-scale=1,user-scalable=0"/>
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后-->
+
+    <title>title</title>
+    <!-- Bootstrap-->
+    <!-- 引入核心css文件-->
+    <link rel="stylesheet" href="../lib/bootstrap/css/bootstrap.min.css"/>
+    <!--html5shiv 是IE9一下的浏览器支持html5标签
+     respond 在IE9一下不支持media query的时候让它能支持 我们的媒体查询
+     注意：：：：以http形式打开预览cdn资源加速引擎 由于是在本地开发是不是应用本地的文件
+     -->
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+
+    <!-- [if lt IE 9]-->
+    <script src="../lib/html5shiv/html5shiv.min.js"></script>
+    <script src="../lib/respond/respond.min.js"></script>
+    <!-- [endif]-->
+
+    <!-- 自己的css样式-->
+
+</head>
+<body>
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Brand</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">Link</a></li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+<!--说明bootstrap 是基于jQuery开发的-->
+<!--jQuery(necessary for Bootstrap's javaScript plugins)引用的是jquery-->
+<script src="../lib/jquery/jquery.min.js"></script>
+<!--bootstrap的核心js文件-->
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="../lib/bootstrap/js/bootstrap.min.js"></script>
+<!--自己的js文件 我们基本上面两个框架-->
+
+</body>
+</html>
